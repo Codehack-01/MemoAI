@@ -7,11 +7,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div class="flex min-h-screen  ">
-      <div class=" ">
+    <div className="flex min-h-screen  ">
+      <div className=" ">
         <LeftSideBar/>
       </div>
-      <div class="w-full ">
+      <div className="w-full ">
         <RightSideBar/>
       </div>
     </div>
